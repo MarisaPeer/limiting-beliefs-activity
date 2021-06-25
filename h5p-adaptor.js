@@ -27,7 +27,6 @@ window.onunload = function () {
 var onCompleted = function (result) {
   var masteryScore;
   if (scorm.version == "2004") {
-    masteryScore = scorm.get("cmi.scaled_passing_score");
   } else if (scorm.version == "1.2") {
     masteryScore = scorm.get("cmi.student_data.mastery_score") / 100;
   }
@@ -39,7 +38,6 @@ var onCompleted = function (result) {
     scorm.status("set", "completed");
   }
   else {
-    var passed = result.score.scaled >= masteryScore;
     if (scorm.version == "2004") {
       scorm.status("set", "completed");
       if (passed) {
