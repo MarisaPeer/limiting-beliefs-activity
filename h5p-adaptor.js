@@ -27,17 +27,21 @@ window.onunload = function () {
 var onCompleted = function (result) {
   var masteryScore;
   if (scorm.version == "2004") {
+    masteryScore = scorm.get("cmi.passing_score");
   } else if (scorm.version == "1.2") {
     masteryScore = scorm.get("cmi.student_data.mastery_score") / 100;
   }
 
+  scorm.set("cmi.core.score.raw", result.score * 100);
   scorm.set("cmi.core.score.min", "0");
   scorm.set("cmi.core.score.max", "100");
+  scorm.set("cmi.core.score", result.score * 100);
 
   if (masteryScore === undefined) {
     scorm.status("set", "completed");
   }
   else {
+    var passed = result.score >= masteryScore;
     if (scorm.version == "2004") {
       scorm.status("set", "completed");
       if (passed) {
