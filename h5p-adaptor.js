@@ -32,10 +32,8 @@ var onCompleted = function (result) {
     masteryScore = scorm.get("cmi.student_data.mastery_score") / 100;
   }
 
-  scorm.set("cmi.core.score.raw", result.score.scaled * 100);
   scorm.set("cmi.core.score.min", "0");
   scorm.set("cmi.core.score.max", "100");
-  scorm.set("cmi.core.score.scaled", result.score.scaled * 100);
 
   if (masteryScore === undefined) {
     scorm.status("set", "completed");
