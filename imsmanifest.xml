@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest identifier="com.H5PAuthor.LimitingBeliefs.08291213-a807-4d8c-a721-76f791831436" version="1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="H5P_Author">
+    <organization identifier="H5P_Author">
+      <title>Limiting Beliefs</title>
+      <item identifier="item_00" identifierref="resource_00">
+        <title>Limiting Beliefs</title>
+        <adlcp:masteryscore>100</adlcp:masteryscore>
+        <metadata>
+          <schema>ADL SCORM</schema>
+          <schemaversion>1.2</schemaversion>
+          <adlcp:location>metadata.xml</adlcp:location>
+        </metadata>
+      </item>
+      <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>1.2</schemaversion>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+    </organization>
+  </organizations>
+  <resources>
+    <metadata>
+      <schema>ADL SCORM</schema>
+      <schemaversion>1.2</schemaversion>
+      <adlcp:location>metadata.xml</adlcp:location>
+    </metadata>
+    <resource identifier="resource_00" type="webcontent" href="index.html" adlcp:scormtype="sco">
+      <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>1.2</schemaversion>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+      <file href="SCORM_API_wrapper.js"/>
+      <file href="fonts/h5p-core-23.eot"/>
+      <file href="fonts/h5p-core-23.svg"/>
+      <file href="fonts/h5p-core-23.ttf"/>
+      <file href="fonts/h5p-core-23.woff"/>
+      <file href="frame.bundle.js"/>
+      <file href="h5p-adaptor.js"/>
+      <file href="index.html"/>
+      <file href="main.bundle.js"/>
+      <file href="styles/h5p-admin.css"/>
+      <file href="styles/h5p-confirmation-dialog.css"/>
+      <file href="styles/h5p-core-button.css"/>
+      <file href="styles/h5p.css"/>
+      <file href="workspace/FontAwesome-4.5/FontAwesome.otf"/>
+      <file href="workspace/FontAwesome-4.5/fontawesome-webfont.eot"/>
+      <file href="workspace/FontAwesome-4.5/fontawesome-webfont.svg"/>
+      <file href="workspace/FontAwesome-4.5/fontawesome-webfont.ttf"/>
+      <file href="workspace/FontAwesome-4.5/fontawesome-webfont.woff"/>
+      <file href="workspace/FontAwesome-4.5/fontawesome-webfont.woff2"/>
+      <file href="workspace/FontAwesome-4.5/h5p-font-awesome.min.css"/>
+      <file href="workspace/FontAwesome-4.5/library.json"/>
+      <file href="workspace/H5P.Accordion-1.0/h5p-accordion.css"/>
+      <file href="workspace/H5P.Accordion-1.0/h5p-accordion.js"/>
+      <file href="workspace/H5P.Accordion-1.0/icon.svg"/>
+      <file href="workspace/H5P.Accordion-1.0/language/af.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/ar.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/bg.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/bs.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/ca.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/cs.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/da.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/de.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/el.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/es-mx.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/es.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/et.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/eu.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/fi.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/fr.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/he.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/hu.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/it.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/ja.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/ko.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/nb.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/nl.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/nn.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/pl.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/pt-br.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/pt.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/ro.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/ru.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/sl.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/sma.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/sme.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/smj.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/sr.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/sv.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/tr.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/uk.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/vi.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/zh-cn.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/zh-hans.json"/>
+      <file href="workspace/H5P.Accordion-1.0/language/zh-hant.json"/>
+      <file href="workspace/H5P.Accordion-1.0/library.json"/>
+      <file href="workspace/H5P.Accordion-1.0/semantics.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/af.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/ar.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/bg.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/ca.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/cs.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/da.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/de.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/el.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/es-mx.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/es.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/et.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/eu.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/fi.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/fr.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/he.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/hu.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/it.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/ja.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/km.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/ko.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/nb.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/nl.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/nn.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/pl.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/pt.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/ro.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/ru.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/sl.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/sma.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/sme.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/smj.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/sr.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/sv.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/tr.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/uk.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/language/vi.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/library.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/semantics.json"/>
+      <file href="workspace/H5P.AdvancedText-1.1/text.css"/>
+      <file href="workspace/H5P.AdvancedText-1.1/text.js"/>
+      <file href="workspace/content/content.json"/>
+      <file href="workspace/h5p.json"/>
+    </resource>
+  </resources>
+</manifest>
